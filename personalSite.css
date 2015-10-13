@@ -1,24 +1,60 @@
 body {
 	font-family: 'Raleway', sans-serif;
-	background: url(https://github.com/kilbergr/hi-hi-hi/blob/master/background.jpg?raw=true) no-repeat fixed center;
+	background-color: #E6F0F0;
 	background-size: 100%;
 	margin: 3px;
-}
-.container {
-	display: -webkit-flex;
-	display: flex;
+
 }
 
-.access {
-	background: url(https://github.com/kilbergr/hi-hi-hi/blob/master/rekbulb.jpg?raw=true) no-repeat;
-	opacity: .5;
-	height: 200px;
-	z-index: 2;
-/*	height: 200px;
-	width: 200px;
-	border-radius: 200px;
-	border: 1px solid;*/
+.main {
+	background-color: #FF6666;
+   -webkit-flex: 2 0 0; 
+   flex: 2 0 0; 
+   }
+ 
+
+.r{
+	width: 100px;
+	height: 100px;
+	box-shadow: 0 0 100px #E6F0F0;
+	background-color: #E6F0F0;
+	margin: 10% 10% 0% 10%;
+	font-size: 96px;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: #FF6666;
+  -moz-transform: scale(-1, 1);
+	-webkit-transform: scale(-1, 1);
+	-o-transform: scale(-1, 1);
+	-ms-transform: scale(-1, 1);
+	transform: scale(-1, 1);
+  unicode-bidi:bidi-override;
+  direction:rtl;
+    -webkit-flex: 1;
+          flex: 1;
 }
-.access:hover {
-	opacity: .4;
+.k{
+	width: 100px;
+	height: 100px;
+	box-shadow: 0 0 100px #E6F0F0;
+	background-color: #E6F0F0;
+	margin: 0% 10% 10% 10%;
+	font-size: 96px;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: #FF6666;
+  -webkit-flex: 1;
+          flex: 1;
+}
+
+
+.container {
+  height: 300px;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+	background-color: #FF6666;
 }
