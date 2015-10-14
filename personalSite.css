@@ -23,14 +23,21 @@
   .aside { flex: 1 auto; }
 }
 
-.links{
+.nav{
 	font-family: 'Raleway';
 	font-size: 24px;
-
 	color: rgb(229, 191, 41);
 	z-index: 2;
 	position: relative;
-	/*margin: -15% 5% -10% 5%;*/
+	text-decoration: none;
+}
+
+.links{
+	font-family: 'Raleway';
+	font-size: 24px;
+	color: rgb(229, 191, 41);
+	z-index: 2;
+	position: relative;
 }
 
 @media all and (min-width: 800px) {
