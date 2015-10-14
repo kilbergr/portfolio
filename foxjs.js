@@ -1,4 +1,4 @@
-var breakFox = function(){
+var makeFox = function(){
 		$('polygon').each(function() {
 
 		var minY = -1000;
@@ -19,9 +19,10 @@ var breakFox = function(){
 }
 
 $(document).ready(function(){
-	breakFox();
+	makeFox();
 	$('#jump').on("click", function(e){
-		breakFox();
+		e.preventDefault();
+		makeFox();
 	});
 	
 })
