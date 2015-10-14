@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-.wrapper {
+.main {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -13,19 +13,24 @@
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
 }
+.main > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+
+@media all and (min-width: 600px) {
+  .aside { flex: 1 auto; }
+}
 
 .links{
 	font-family: 'Raleway';
 	font-size: 24px;
-/*	width: 130px;
-	height: 120px;*/
-/*	border-radius: 150px;*/
-	/*text-align: center;	*/
-	/*padding: 20px 10px 10px 10px;*/
+
 	color: rgb(229, 191, 41);
 	z-index: 2;
 	position: relative;
-	margin: -15% 5% -10% 5%;
+	/*margin: -15% 5% -10% 5%;*/
 }
 
 @media all and (min-width: 800px) {
