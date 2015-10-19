@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   font-family: 'Josefin Sans';
-  font-size: 16px;
+  font-size: 18px;
 }
 
 h1{
@@ -132,7 +132,7 @@ li a {
 }
 
 .aside {
-  width: 350px;
+  width:30em;
   padding: 1em 0.5em;
 }
 @media (max-width: 700px) {
