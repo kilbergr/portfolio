@@ -4,45 +4,52 @@
 	<meta charset="UTF-8">
 	<title>It's My Site and I'll Code if I Want To</title>
 	<link href='https://fonts.googleapis.com/css?family=Cardo:700|Josefin+Sans' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="personalSite.css">
+	<link rel="stylesheet" href="personalSite.css">
 	<link rel="favicon" href="https://raw.githubusercontent.com/kilbergr/portfolio/master/favicon.ico" />
-	
-	<main id="main">
+</head>
 
-	<nav id="menu">
-    <ul>
-		 	<li><a class="nav" href="index.html">Home</a></li>
-	<!-- 	  <li><a class="nav" href="portfolio.html">Portfolio</a></li> -->
-		  <li><a class="nav" href="https://github.com/kilbergr/portfolio/raw/master/rebecca_kilberg_resume.pdf">Download Resume</a></li>
-		  <li><a class="nav" href="about.html">About</a></li>
-		  <li><a class="nav" href="http://kilbergr.tumblr.com">Blog</a></li>
-		 </ul>
+<main id="main" class="container">
+	<header class="header">
+		<nav id="menu">
+			<ul>
+				<li><a class="nav" href="index.html">Home</a></li>
+				<li><a class="nav" href="resume.html">Resume</a></li>
+				<li><a class="nav" href="about.html">About</a></li>
+				<li><a class="nav" href="thankyou.html">My Big Trip</a></li>
+				<li><a class="nav" href="http://kilbergr.tumblr.com">Blog</a></li>
+			</ul>
 		</nav>
+	</header>
+	<div class="aside">
+		<table>
+			<tr><a href="http://death-be-not-unknown.herokuapp.com"><h2>Death, Be Not Unknown</h2></a>
+				<td><p>Only two things are certain in life: death and taxes. Why not find out a little more about the former while there's still time?</p>
+					<p><em>Death, Be Not Unknown</em> allows users to explore D3 data visualizations of American mortality statistics. Search by geographic, demographic, and historic characteristics to find trends.</p>
+					<p>The app uses a Ruby on Rails and AJAX on the backend backend and its frontend stack includes JavaScript, jQuery, and TopoJSON. I created a mortality API for the app from data I scraped and stored in a PostgreSQL database from the Centers on Disease Control and Prevention's WISQARS database.</p>
+				</td>
+				<td><iframe width="300" src="https://www.youtube.com/embed/ongjWS-RmJM" frameborder="0" allowfullscreen></iframe>
+				</td>
+			</tr>
 
-<div class="aside">
-		<div ><a href="http://death-be-not-unknown.herokuapp.com"><h2>Death, Be Not Unknown</h2></a></div>
-		<p>Only two things are certain in life: death and taxes. Why not find out a little more about the former while there's still time?</p>
-		<p><em>Death, Be Not Unknown</em> allows users to explore D3 data visualizations of American mortality statistics. Search by geographic, demographic, and historic characteristics to find trends.</p>
-		<p>The app uses a Ruby on Rails and AJAX on the backend backend and its frontend stack includes JavaScript, jQuery, and TopoJSON. I created a mortality API for the app from data I scraped and stored in a PostgreSQL database from the Centers on Disease Control and Prevention's WISQARS database.</p>
-
-		<div class="links"><a href="http://poison-dear.herokuapp.com"><h2>Poison, Dear</h2></a></div>
-		<p>Before you eat that, perhaps you'd like to know whether it possesses any dangerous (or mundane but unexpected) qualities.</p>
-		<p><em>Poison, Dear</em> is a web app that allows users to easily search recall information from the Food and Drug Administration (FDA). It uses data from openFDA--a research project designed to facilitate access to public FDA data.Users can search recall data from 2012 forward by distribution location, time of recall, or type of food and save their results. </p>
-
-
-		<div class="links"><a href="http://kilbergr.github.io/Gimme-Five/"><h2>High Five!</h2></a></div>
-		<p>Give yourself a high five. You deserve it. Created originally with CSS animations and re-created using Paper.JS. Make sure to turn on your audio for the full experience.</p>
-
-
-		<div class="links"><a href="http://twixt.herokuapp.com"><h2>Twixt</h2></a></div>
-		<p>Twixt is an event planning app for the control freaks among us. This Ruby on Rails app lets users track who is bringing what to an event and send out texts (using the Twilio API) or emails to remind guests.It was built as a group project for Galvanize's full stack immersive program.</p>
+			<tr>
+				<td><a href="http://poison-dear.herokuapp.com"><h2>Poison, Dear</h2></a>
+					<p>Before you eat that, perhaps you'd like to know whether it possesses any dangerous (or mundane but unexpected) qualities.</p>
+					<p><em>Poison, Dear</em> is a web app that allows users to easily search recall information from the Food and Drug Administration (FDA). It uses data from openFDA--a research project designed to facilitate access to public FDA data.Users can search recall data from 2012 forward by distribution location, time of recall, or type of food and save their results. </p>
+				</td>
+				<td>	<iframe width="300" src="https://www.youtube.com/embed/seP7fIq6IBU" frameborder="0" allowfullscreen></iframe></td>
+			</tr>
+			<tr>
+				<td><a href="http://kilbergr.github.io/Gimme-Five/"><h2>High Five!</h2></a><p>Give yourself a high five. You deserve it. Created originally with CSS animations and re-created using Paper.JS. Make sure to turn on your audio for the full experience.</p></td>
+				<td><iframe width="300" src="https://www.youtube.com/embed/o2WcfNQ-nco" frameborder="0" allowfullscreen></iframe></td>
+			</tr>
+			<tr>
+				<td>
+					<a href="http://twixt.herokuapp.com"><h2>Twixt</h2></a>
+					<p>Twixt is an event planning app for the control freaks among us. This Ruby on Rails app lets users track who is bringing what to an event and send out texts (using the Twilio API) or emails to remind guests.It was built as a group project for Galvanize's full stack immersive program.</p>
+				</td>
+			</tr>
+		</table>
 	</div>
-	<div >		
-		<iframe width="300" src="https://www.youtube.com/embed/ongjWS-RmJM" frameborder="0" allowfullscreen></iframe>
-		<iframe width="300" src="https://www.youtube.com/embed/seP7fIq6IBU" frameborder="0" allowfullscreen></iframe>
-		<iframe width="300" src="https://www.youtube.com/embed/o2WcfNQ-nco" frameborder="0" allowfullscreen></iframe>
-	</div>
-	</main>
- </head>	
+</main>
 </body>
 </html>
